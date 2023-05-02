@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: #2A2A2A;
+    color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-header {
+    background-color: #222222;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.main-header-menu {
+    cursor: pointer;
+    width: 40px;
+    padding-left: 15px;
+}
+.main-header-menu .menu {
+    border-radius: 8px;
+    padding: 6px;
+}    
+.main-header-menu .menu:hover {
+    background-color: #888888;
+}    
+.main-header-title {
+    flex: 1;
+}
+.main-header-logo {
+    cursor: default;
+    padding-right: 15px;
+}    
+.chinese {
+    font-family: "Microsoft JhengHei", Tahoma, Verdana, Arial;
+    border-color: #aaaa00;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #dd0000;
+    color: #dddd00;
+}
+.main-body {
+    padding: 15px;
+}
+.main-navmenu {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    max-width: 0;
+    visibility: hidden;
+    background-color: #444444;
+    transition: max-width 1s;
+}
+.main-navmenu-header {
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.main-navmenu-header-menu {
+    padding-left: 15px;
+}    
+.main-navmenu-header .menu {
+    cursor: default;
+    border-radius: 8px;
+    padding: 6px;
+}    
+.main-navmenu-header .menu:hover {
+    background-color: #888888;
+}    
+.main-navmenu-header-title {
+    flex: 1;
+}
+.main-navmenu.navmenu-open {
+    visibility: visible;
+    max-width: 200px;
+    transition: max-width 1s;
+}    
+.main-navmenu-header-logo {
+    cursor: default;
+    padding-right: 15px;
+}    
+.main-navmenu-body {
+    padding-left: 15px;
+    padding-right: 15px;
+}    

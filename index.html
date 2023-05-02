@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Douglas Wan</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<head>
+  <title>Douglas Wan - NYC</title>
+  <link rel="stylesheet" href="main.css" />
+  <script type="text/javascript" src="main.js"></script>
+  <script>
+    function doLoad() {
+      if (main && main.doLoad) main.doLoad("home");
+    };
+  </script>
+</head>
+<body onload="doLoad();">
+  <noscript>
+    <b>Your browser does not support JavaScript or it is currently disabled!</b>
+  </noscript>
 </body>
 </html>
